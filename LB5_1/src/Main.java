@@ -1,7 +1,6 @@
 public class Main {
 
     public static void main(String[] args) {
-//        ArrayList<TramStop> list = new ArrayList<>();
         TramStop tramStop = new TramStop("1",new int[]{1, 3, 4},new Hour[]{
                 new Hour(73,"0:00"),
                 new Hour(23,"1:00"),
@@ -13,7 +12,6 @@ public class Main {
         });
         System.out.println(tramStop.getAllPassenger()); // 249
         System.out.println(tramStop.getHourMinPassenger()); //0
-        System.out.println(tramStop.getMaxComment()); //0
-//        list
+        System.out.println(tramStop.getMaxComment()); //"5:00.01"
     }
 }

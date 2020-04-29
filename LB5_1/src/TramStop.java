@@ -57,4 +57,13 @@ Hour[] listHour;
     int getAllPassenger(){
         return Arrays.asList(listHour).stream().mapToInt(Hour::getQuantityPassenger).sum();
     }
+
+    @Override
+    public String toString() {
+        return "TramStop{" +
+                "name='" + name + '\'' +
+                ", listNumRoute=" + Arrays.toString(listNumRoute) +
+                ", listHour=" + Arrays.toString(listHour) +
+                '}';
+    }
 }
