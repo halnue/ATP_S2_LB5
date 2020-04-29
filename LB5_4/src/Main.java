@@ -10,9 +10,7 @@ public class Main {
         System.out.println(list);
     }
 
-    //    static void findNumberFibonacci(int quantity){
-//
-//    }
+
     static void findNumberFibonacci(int number) {
         if (list.size() <= number - 1)
             findNumberFibonacci(number - 1);
