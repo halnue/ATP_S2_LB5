@@ -4,9 +4,9 @@ import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
-        String s = new Scanner(System.in).nextLine();
+//        String s = new Scanner(System.in).nextLine();
         //Увести з клавіатури рядок з декількох слів. Скласти рядок з перших літер слів з переведенням цих літер у верхній регістр
-//        String s = "Hello, Java!";
+        String s = "Hello, Java!";
         System.out.println(toAbbreviation(s));
 
     }

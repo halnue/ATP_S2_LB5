@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="39f3f322-5ee4-4d06-9166-6bfbb183deef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LB5_6/LB5_6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LB5_6/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LB5_4/src/InappropriateNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LB5_4/src/NumberFibonacciLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LB5_5/LB5_5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LB5_5/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LB5_7/src/CannotBeCalculatedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LB5_7/src/LinearEquation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LB5_1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LB5_1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LB5_2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LB5_2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LB5_4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LB5_4/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LB5_6/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LB5_6/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LB5_7/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LB5_7/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LB5_7/src/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/LB5_7/src/QuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LB5_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LB5_1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LB5_1/TramStop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LB5_1/TramStop.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,18 +48,27 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LB5_2" />
@@ -47,7 +78,7 @@
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="LB5_3" />
+      <module name="LB5_6" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,32 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="LB5_7" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="LB5_6" />
+      <module name="LB5_1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Main (5)" />
-    </list>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LB5_5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
       </list>
@@ -112,7 +136,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588146562329</updated>
-      <workItem from="1588146570363" duration="18945000" />
+      <workItem from="1588146570363" duration="20527000" />
+      <workItem from="1588427939576" duration="611000" />
+      <workItem from="1588433320656" duration="598000" />
+      <workItem from="1588691295131" duration="1427000" />
+      <workItem from="1589557910878" duration="1878000" />
+      <workItem from="1589786363339" duration="638000" />
+      <workItem from="1589936437600" duration="12108000" />
+      <workItem from="1589967712403" duration="1477000" />
+      <workItem from="1590385963823" duration="5406000" />
     </task>
     <task id="LOCAL-00001" summary="Finish LB5_4">
       <created>1588164676980</created>
@@ -128,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588171683761</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finish LB5_6">
+      <created>1588176777592</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588176777592</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,53 +176,58 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish LB5_4" />
     <MESSAGE value="Finish LB5_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish LB5_7" />
+    <MESSAGE value="Finish LB5_6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish LB5_6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Project_Structure" timestamp="1588175189992">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1588175189992" />
-    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1588166255296">
+    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1590401975663">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1588166255296" />
-    <state x="425" y="24" key="CommitChangelistDialog2" timestamp="1588171682814">
+    <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1590401975663" />
+    <state x="425" y="24" key="CommitChangelistDialog2" timestamp="1588176776700">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="425" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1588171682814" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1588176433695">
+    <state x="425" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1588176776700" />
+    <state width="1557" height="276" key="GridCell.Tab.0.bottom" timestamp="1590402423189">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1588176433695" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1588176433695">
+    <state width="1557" height="276" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590402423189" />
+    <state width="1557" height="276" key="GridCell.Tab.0.center" timestamp="1590402423188">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1588176433695" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1588176433695">
+    <state width="1557" height="276" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590402423188" />
+    <state width="1557" height="276" key="GridCell.Tab.0.left" timestamp="1590402423188">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1588176433695" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1588176433695">
+    <state width="1557" height="276" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590402423188" />
+    <state width="1557" height="276" key="GridCell.Tab.0.right" timestamp="1590402423188">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1588176433695" />
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1588164262779">
+    <state width="1557" height="276" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590402423188" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1590402423189">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1588164262779" />
-    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1588164262779">
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590402423189" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1590402423189">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1588164262779" />
-    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1588164262779">
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1590402423189" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1590402423189">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1588164262779" />
-    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1588164262779">
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1590402423189" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1590402423189">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1588164262779" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1590402423189" />
+    <state x="495" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1592319019703">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="495" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1592319019703" />
     <state x="182" y="50" key="new project wizard" timestamp="1588176761425">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -193,14 +237,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LB5_3/src/Main.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/LB5_5/src/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LB5_3/src/Main.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/LB5_5/src/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LB5_7/src/QuadraticEquation.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LB5_4/src/Main.java</url>
+          <line>10</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LB5_4/src/NumberFibonacciLoop.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

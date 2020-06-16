@@ -11,7 +11,7 @@ public class Main {
                 new Hour(9,"6:00")
         });
         System.out.println(tramStop.getAllPassenger()); // 249
-        System.out.println(tramStop.getHourMinPassenger()); //0
+        System.out.println(tramStop.getHourMinPassenger()); //3:00 6:00
         System.out.println(tramStop.getMaxComment()); //"5:00.01"
     }
 }

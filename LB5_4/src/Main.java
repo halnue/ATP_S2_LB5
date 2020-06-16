@@ -1,19 +1,15 @@
+import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Main {
-    static ArrayList<Long> list = new ArrayList();
 
-    public static void main(String[] args) {
-        list.add((long) 1);
-        list.add((long) 1);
-        findNumberFibonacci(92);
-        System.out.println(list);
-    }
-
-
-    static void findNumberFibonacci(int number) {
-        if (list.size() <= number - 1)
-            findNumberFibonacci(number - 1);
-        list.add(list.get(number - 2) + list.get(number - 1));
+    public static void main(String[] args) throws InappropriateNumberException {
+        System.out.println(NumberFibonacciLoop.getNumberFibonacciLoop(2));
+        System.out.println(NumberFibonacciLoop.getNumberFibonacciLoop(5));
+        System.out.println(NumberFibonacciLoop.getNumberFibonacciLoop(3));
+        System.out.println(NumberFibonacciLoop.getNumberFibonacciLoop(7));
+        System.out.println(NumberFibonacciLoop.getNumberFibonacciLoop(92));
+        System.out.println(NumberFibonacciLoop.getNumberFibonacciLoop(93));
     }
 }

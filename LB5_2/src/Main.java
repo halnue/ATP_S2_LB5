@@ -1,41 +1,29 @@
-import java.util.LinkedList;
-import java.util.List;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.stream.Collectors;
-
 public class Main {
-    static List<Integer> listPrimeNumber = new LinkedList();
+    static int[] list = createList(1000);
 
     public static void main(String[] args) {
-        List<Integer> list = createList();
 
-        list = list.stream().map(integer -> changeValue(integer)).collect(Collectors.toList());
-
-        System.out.println(list);
-        System.out.println(listPrimeNumber);
+        change();
+        for (int i = 0; i < list.length; i++) {
+            System.out.print(list[i]+" ");
+        }
     }
 
-    static int changeValue(Integer integer) {
-        if (checkNumber(integer)) {
-            listPrimeNumber.add(integer);
-            return integer;
-        } else
-            return integer = -1;
+
+    static void change() {
+        for (int i = 0; i < list.length; i++) {
+            if (list[i] == 0 || list[i]==1||list[i]==-1)
+                continue;
+                for (int i1 = i + i; i1 < list.length; i1 += i) {
+                    list[i1] = -1;
+                }
+        }
     }
 
-    static List<Integer> createList() {
-        List list = new LinkedList<Integer>();
-        for (int i = 2; i <= 300; i++)
-            list.add(i);
+    static int[] createList(int size) {
+        int[] list = new int[size+1];
+        for (int i = 0; i <= size; i++)
+            list[i] = i;
         return list;
-    }
-
-    static boolean checkNumber(int n) {
-        AtomicBoolean result = new AtomicBoolean(true);
-        listPrimeNumber.forEach(integer -> {
-            if (n % integer == 0)
-                result.set(false);
-        });
-        return result.get();
     }
 }
